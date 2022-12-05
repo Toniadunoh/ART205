@@ -1,0 +1,51 @@
+.fast{
+    font-size: 20px;
+    margin-top: 100px;
+    margin-left: 100px;
+    text-align: center;
+    align-items: center;
+}
+.fast h1{
+    font-size: 60px;
+    font-weight: 700;
+    font-family: sans-serif;
+    text-align: left;color: rgb(25, 5, 245);
+}
+.fast h1 span{
+    color: brown;
+    font-family: cursive;
+}
+#par h1{
+    color: brown;
+    text-align: center;
+}
+#par p{
+    font-size: 25px;
+    padding: 10px 200px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#left{
+    text-align: left;
+    font-family: sans-serif;
+}
+#left h1{
+    color: brown;
+} 
+#left p{
+    font-size: 25px;
+    font-weight: bold;
+    padding-right:50%;
+}
+#left .div p{
+    font-weight: lighter;
+    font-size: 20px;
+}
+.top p a{
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+.top p a:hover{
+    background-color: chocolate;
+}

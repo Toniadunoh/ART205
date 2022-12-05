@@ -1,0 +1,76 @@
+@media (max-width: 1000px;){
+  nav{
+    display: block;
+    flex-direction: column;
+    height: max-content;
+    align-items: center;
+    font-size: small;
+  }
+  nav img{
+    display: block;
+  }
+  nav p{
+    width: 100%;
+    display: inline;
+  }
+}
+.enroll{
+    text-align: center;
+}
+.enroll h1{
+    color: brown;
+}
+.enroll p{
+    font-size: 25px;
+    padding: 10px 200px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#all{
+    padding: 10px 200px;
+}
+
+#all .first h3{
+    color: brown;
+}
+.form{
+    padding: 10px 300px;
+}
+.form form{
+    background-color: rgb(209, 169, 118);
+    padding-bottom: 5%;
+}
+.form h1{
+    text-align: center;
+    color: brown;
+}
+.form .first{
+    width: 40%;
+    height: 30px;
+    margin-left: 60px ;
+}
+.form .tel{
+    width: 88%;
+    height: 30px;
+    margin-left: 60px;
+    cursor: pointer;
+}
+.form h3{
+    margin-left: 60px;
+    color: brown;
+}
+.form .but{
+    margin-left: 60px;
+}
+.form button{
+    margin-left: 60px;
+    width: 3cm;
+    height: 40px;
+    font-size: 25px;
+    background-color: orange;
+    color: white;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 40%;
+    cursor: pointer;
+}

@@ -1,0 +1,38 @@
+.abo{
+    padding: 10px 200px;
+}
+.abo h1{
+    color: brown;
+    text-align: center;
+}
+.abo p{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+.abo #abo p{
+    font-weight: lighter;
+}
+.abo .me p{
+    font-weight: lighter;
+}
+.abo .last p{
+    font-weight: lighter;
+}
+footer{
+    width: 100%;
+    background-color: brown;
+    color: black;
+    text-align: center;
+    height: 50px;
+    font-size: 40px;
+    font-family: sans-serif;
+}
+.top p a{
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+.top p a:hover{
+    background-color: chocolate;
+}

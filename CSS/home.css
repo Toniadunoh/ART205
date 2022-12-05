@@ -1,0 +1,144 @@
+* {
+margin: 0;
+padding: 0;
+margin-top: 20px; 
+}
+body{
+margin: 30px 0 0 ;
+}
+.back{
+background-image: url(../HTML/school.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+height: 600px;
+color: white;
+}
+nav{
+display: flex;
+flex-direction: row;
+align-items: center;
+height: 80px;
+}
+@media (max-width: 1000px) {
+nav{
+display: block;
+flex-direction: column;
+height: max-content;
+align-items: center;
+font-size: small;
+}
+nav img{
+display: block;
+}
+nav p{
+width: 100%;
+display:inline;
+}
+}
+nav #icon{
+cursor: pointer ;
+margin-left: 0;
+float: right;
+}
+nav ul{
+display: flex;
+flex-direction: row;
+row-gap: 10px;
+list-style-type: none;
+font-size: 30px;
+flex: 1;
+justify-content: space-around;
+}
+nav ul :hover{
+color:brown;
+background-color: rgb(197, 94, 94);
+border-radius: 20px;
+}
+nav ul li a{
+text-decoration: none;
+padding: 5px 10px; 
+color:white;
+
+}
+nav p{
+font-size: 50px;
+font-family: cursive;
+font-weight: bolder;
+color: brown;
+text-shadow: 0 0 10px gray,
+0 0 20px gray,
+0 0 40px gray,
+0 0 80px gray,
+0 0 120px gray;
+margin-left: 30px;
+animation: fade-inout 0.5s infinite alternate;
+
+}
+@keyframes fade-inout{
+0% { opacity:1; }
+100%{ opacity:0;}
+}
+
+.fast{
+font-size: 20px;
+margin-top: 100px;
+margin-left: 100px;
+text-align: center;
+align-items: center;
+}
+.fast h1{
+font-size: 60px;
+font-weight: 700;
+font-family: sans-serif;
+text-align: left;color: rgb(25, 5, 245);
+}
+nav img{
+height: 80px;
+}
+.location{
+width: 12cm;
+height: 1cm ;
+border-radius: 15px;
+border-color: blue; 
+}
+.fast h1 span{
+color: brown;
+font-family: cursive;
+}
+.tuition{
+text-align: center;
+}
+.tuition h1{
+color: brown;
+}
+.tuition p{
+font-size: 25px;
+padding: 10px 200px;
+font-weight: bold;
+font-family: sans-serif;
+}
+#blank{
+font-size: 25px;
+padding: 10px 200px;
+font-family: sans-serif;
+text-align: center;
+}
+
+.top p a{
+text-decoration: none;
+color: blue;
+font-size: 25px;
+}
+.top p a:hover{
+background-color: chocolate;
+}
+footer{
+width: 100%;
+background-color: brown;
+color: black;
+text-align: center;
+height: 50px;
+font-size: 40px;
+font-family: sans-serif;
+}
